@@ -3,14 +3,10 @@
 
 
 /**
- *
- *  * main - Entry point
- *
- *   * print to output
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * main - Entry point
+ * print to output
+ * Return: Always 0 (Success)
+ */
 
 
 
