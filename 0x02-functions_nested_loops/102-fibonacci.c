@@ -13,6 +13,7 @@ int main(void)
 	long int next;
 	long int prev = 1;
 	long int current = 1;
+
 	for (i = 1; i <= 50; i++)
 	{
 		next = current + prev;
