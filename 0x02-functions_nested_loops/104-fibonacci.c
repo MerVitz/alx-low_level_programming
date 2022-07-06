@@ -34,7 +34,7 @@ int main(void)
 	{
 		overflow = (current_tail + next_tail) / BILLION;
 		sum_tail = (current_tail + next_tail) - (BILLION * overflow);
-		sum_head = (current_head + next_head) + overflow
+		sum_head = (current_head + next_head) + overflow;
 			printf(", %lu%lu", sum_head, sum_tail);
 		current_head = next_head;
 		current_tail = next_tail;
