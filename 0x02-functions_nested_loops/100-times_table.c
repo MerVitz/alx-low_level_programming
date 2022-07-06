@@ -67,6 +67,7 @@ void print_numbers(int k, int mod)
 void print_times_table(int n)
 {
 	int left, right, product, mod, postprod;
+
 	if (n > 15 || n < 0)
 		return;
 	for (left = 0; left <= n; left++)
