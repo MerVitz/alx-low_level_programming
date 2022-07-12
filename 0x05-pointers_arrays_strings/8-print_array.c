@@ -1,9 +1,9 @@
 #include "main.h"
 
-
-
 /**
  * print_array - prints an array
+ * @a: integer
+ * @n: integer
  * Return: void
  */
 

@@ -3,10 +3,11 @@
 
 
 /**
- * strlen - get len
- * str: char pointer
+ * _strlen - get len
+ * @str: char pointer
  * Return: int
  */
+
 
 int _strlen(char *str)
 {
@@ -14,10 +15,12 @@ int _strlen(char *str)
 }
 
 /**
- * num_id - find index where a digit is first found in string
- * string to search: s
+ * _num_id - find index where a digit is first found in string
+ * @s: string to search
  * Return: integer index where digit is first found
  */
+
+
 
 int _num_id(char *s)
 {
@@ -30,11 +33,13 @@ int _num_id(char *s)
 	}
 	return (-1); /* return -1 if no digits found */
 }
+
 /**
- * determine if integer is negative
- * integer
+ * find_sign - determine if integer is negative
+ * @s: integer
  * Return: integer 1 or -1
  */
+
 
 int find_sign(char *s)
 {
@@ -50,10 +55,14 @@ int find_sign(char *s)
 	return (sign);
 }
 
+
 /**
- * convert string to int
+ * _atoi - convert string to int
+ * @s: string to convert
  * Return: integer
  */
+
+
 int _atoi(char *s)
 {
 	int _start_id = (_num_id(s));
@@ -63,7 +72,7 @@ int _atoi(char *s)
 	unsigned int num = 0;
 	int digit = (_num_id(s));
 
-	if (_start_id < 0) /* no digits, exit program */
+	if (_start_id < 0) /* if no digits found, exit program */
 		return (0);
 	sign = find_sign(s);
 	while ((s[_start_id] >= '0' && s[_start_id] <= '9')

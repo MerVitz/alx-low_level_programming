@@ -1,10 +1,8 @@
 #include "main.h"
 
-
-
 /**
  * puts2 - print to the stdout
- * str: string
+ * @str: string
  * Return: void
  */
 
