@@ -1,15 +1,16 @@
 #include "main.h"
 
-
-
 /**
- *puts - print to the stdout
- *str: string
+ * _puts - print to the stdout
+ * @str: string
  * Return: void
  */
+
+
 void _puts(char *str)
 {
 	int len, i;
+
 	len = strlen(str);
 	for (i = 0; i < len; i++)
 	{
