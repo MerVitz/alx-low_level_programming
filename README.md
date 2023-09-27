@@ -3,7 +3,7 @@
 
  <h2>C PROGRAMMING.</h2>
  <br>
-  <img src="code.png"/>
+  <img src="c.jpg"/>
 
 </p>
 
