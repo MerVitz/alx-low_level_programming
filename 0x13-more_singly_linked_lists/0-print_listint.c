@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_listint - print sll elements of list_t
+ *The fucntion - print sll elements of list_t
  *
  * @h: singly linked list to print
- * Return: size_t
+ * Returns: size_t,i
  */
 size_t print_listint(const listint_t *h)
 {
