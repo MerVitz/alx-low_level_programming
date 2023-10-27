@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * clear_bit - This program function sets the value of function to 0, thereby clearing it
+ * clear_bit - This program function sets the value of function to 0
  * @n: parameter
  * @index: index
  * Return: 1 if success, -1 if error
